@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vishnuvardhan Vadlamoodi — Resume</title>
+
+  <style>
+    :root{
+      --accent:#034f84;
+      --muted:#555;
+      --bg:#f7f9fb;
+      --paper:#ffffff;
+      --maxwidth:900px;
+      --pad:22px;
+      font-family: Inter, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    html,body{height:130%}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:#222;
+      line-height:1.45;
+      padding:30px 16px;
+      display:flex;
+      justify-content:center;
+      font-size:15px;
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--maxwidth);
+      background:var(--paper);
+      box-shadow:0 8px 30px rgba(8,20,30,0.06);
+      border-radius:10px;
+      overflow:hidden;
+    }
+
+    header{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+      padding:var(--pad);
+      border-bottom:1px solid #e6eef6;
+      gap:10px;
+    }
+
+    .name-block{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+    }
+    h1{
+      margin:0;
+      font-size:20px;
+    }
+    .sub{
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    .contact{
+      text-align:right;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .contact a{ color:var(--accent); text-decoration:none; }
+
+    main{display:flex;flex-direction:column;padding:var(--pad);gap:18px}
+    .section{display:flex;gap:20px;flex-wrap:wrap}
+    .left, .right{
+      flex:1 1 320px;
+      min-width:260px;
+    }
+
+    .card{
+      padding:14px 16px;
+      border-radius:8px;
+      background:linear-gradient(180deg, rgba(3,79,132,0.03), rgba(3,79,132,0.01));
+      border:1px solid rgba(3,79,132,0.06);
+    }
+
+    .section-title{
+      font-weight:600;
+      color:var(--accent);
+      margin-bottom:8px;
+      font-size:14px;
+    }
+
+    ul{margin:6px 0 0 18px;padding:0}
+    li{margin-bottom:6px;color:#222}
+    p{margin:0;color:#222}
+
+    .skills-grid{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:8px;
+    }
+    .skill{
+      background:#fff;
+      border:1px solid #e6eef6;
+      padding:6px 10px;
+      border-radius:6px;
+      font-size:13px;
+      color:#1b2340;
+    }
+
+    .experience-item{margin-bottom:12px}
+    .role{font-weight:600}
+    .company{color:var(--muted); font-size:13px; margin-bottom:6px}
+    .dates{font-size:13px;color:var(--muted)}
+
+    <!-- footer{
+      padding:14px 18px;
+      border-top:1px solid #e6eef6;
+      font-size:13px;
+      color:var(--muted);
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:8px;
+    }-->
+
+    @media print{
+      body{background:white;padding:0}
+      .container{box-shadow:none;border-radius:0}
+      header, footer{display:none}
+      body, .container, main{width:100%}
+    }
+
+    @media (max-width:720px){
+      header{flex-direction:column;align-items:flex-start}
+      .contact{text-align:left}
+      main{padding:16px}
+      .left,.right{min-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="name-block">
+        <h1>VADLAMOODI VISHNUVARDHAN</h1>
+        <div class="sub">Jr. Software Engineer — Application & Production Support</div>
+      </div>
+      <div class="contact">
+        Email: <a href="mailto:vardhanv020@gmail.com">vardhanv020@gmail.com</a><br>
+        Phone: <a href="tel:+917995779849">+91 7995779849</a><br>
+        Location: India
+      </div>
+    </header>
+
+    <main>
+      <!-- Professional Summary -->
+      <section class="card">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <p>
+          Application & Production Support Engineer with 4 years of experience in Linux, SQL, and ServiceNow.
+          Proven expertise in incident management, server health monitoring, SOP creation, and deployment coordination.
+          Strong ability to troubleshoot issues, streamline support processes, and ensure smooth production operations.
+        </p>
+      </section>
+
+      <div class="section">
+        <!-- Left -->
+        <div class="left">
+          <section class="card">
+            <div class="section-title">CORE COMPETENCIES</div>
+            <div class="skills-grid">
+              <div class="skill">Linux</div>
+              <div class="skill">SQL</div>
+              <div class="skill">ServiceNow</div>
+              <div class="skill">Incident Management</div>
+              <div class="skill">SOP Creation</div>
+              <div class="skill">Server Health Monitoring</div>
+              <div class="skill">Deployment Coordination</div>
+            </div>
+          </section>
+
+          <section class="card" style="margin-top:14px;">
+            <div class="section-title">EDUCATION</div>
+            <div>
+              <strong>B.Sc. in Computers</strong><br>
+              Sri Venkateshwara University, Tirupathi — 2020
+            </div>
+            <div style="margin-top:8px;">
+              <strong>Intermediate (MPC)</strong><br>
+              Mother Theresa Junior College, Palamaner — 2017
+            </div>
+          </section>
+       <!-- </div> -->
+
+        <!-- Right 
+        <div class="Right">-->
+          <section class="card">
+            <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+
+            <div class="experience-item">
+              <div class="role">Jr. Software Engineer</div>
+              <div class="company">Cognizant Technology Solutions</div>
+              <div class="dates">Oct 2023 – Present</div>
+            </div>
+            <div class="experience-item">
+              <div class="role">Sr. Systems Engineer</div>
+              <div class="company">Cognizant Technology Solutions</div>
+              <div class="dates">Jun 2022 – Sept 2023</div>
+            </div>
+            <div class="experience-item">
+              <div class="role">Programmer Trainee</div>
+              <div class="company">Cognizant Technology Solutions</div>
+              <div class="dates">Aug 2021 – Aug 2022</div>
+            </div>
+           </div>
+          </section>
+           <div class="right">
+	<section class="card">
+            <div style="margin-top:6px;">
+              <strong>Key Projects</strong>
+              <ul>
+                <li><strong>Novartis Bio Medical – L1.5 Support</strong>
+                  <ul>
+                    <li>Provided user access for applications (Impact, Origin).</li>
+                    <li>Created and managed service requests; maintained SLAs.</li>
+                    <li>Daily server health reports and escalation coordination.</li>
+                    <li>Tools used: APS, UAR, ServiceNow.</li>
+                  </ul>
+                </li>
+                <li style="margin-top:6px;"><strong>HDFC Bank – L1.5 Support</strong>
+                  <ul>
+                    <li>Led application support, monitoring and troubleshooting production issues.</li>
+                    <li>Handled incidents, service requests, problems, and changes via ServiceNow.</li>
+                    <li>Prepared SOPs/Runbooks and coordinated with deployment teams for releases.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="card" style="margin-top:14px;">
+            <div class="section-title">ACHIEVEMENTS & INITIATIVES</div>
+            <ul>
+              <li>Successfully Led a small support team for HDFC production operations.</li>
+              <li>Reduced incident resolution time by ~15% through proactive monitoring.</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- Personal info -->
+      <section class="card">
+        <div class="section-title">PERSONAL INFORMATION</div>
+        <div>
+          <strong>Date of Birth:</strong> 21 June 2000 &nbsp; | &nbsp;
+          <strong>Languages:</strong> English, Telugu<br>
+          <strong>Hobbies:</strong> Reading books, Traveling, Movies, Driving
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
